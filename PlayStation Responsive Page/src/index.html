@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Websites</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="container">
+            <div class="navbar">
+                <img src="/Playstation_Img/logo.png" class="logo" alt="playstation logo">
+                <nav>
+                    <ul id="menuList">
+                        <li><a href="http://"><strong> Game Controllers</strong></a></li>
+                        <li><a href="http://"><strong>VR Acessories</strong></a></li>
+                        <li><a href="http://"><strong>Media Remotes</strong></a></li>
+                        <li><a href="http://"><strong>Others</strong></a></li>
+                    </ul>
+                </nav>
+                <img src="/Playstation_Img/menu.png" class="menu-icon" 
+                        alt="menu icon" onclick="togglemenu()">
+            </div>
+
+            <div class="row">
+                <div class="col-1">
+                    <h2>PS4 V2 <br>Dualshock</h2>
+                    <h3>Wireless Controller for PlayStation 4</h3>
+                    <p>(Compitable/Generic)</p>
+                    <h4>$32.50</h4>
+                    <button type="button">Buy Now<img src="/Playstation_Img/arrow.png" alt="arrow icon"></button>
+                </div>
+                <div class="col-2">
+                    <img src="/Playstation_Img/controller.png" alt="controller icon" class="controller">
+                    <div class="color-box"></div>
+                    <div class="add-btn">
+                        <img src="/Playstation_Img/add.png" alt="add button">
+                        <p><small>Add to Cart</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social-links">
+                <img src="/Playstation_Img/fb.png" alt="facebook icon" >
+                <img src="/Playstation_Img/tw.png" alt="twitter icon">
+                <img src="/Playstation_Img/ig.png" alt="instagram icon">
+            </div>
+
+        </div>
+
+    
+
+
+
+        <script>
+            var MenuList=document.getElementById('menuList')
+            MenuList.style.maxHeight="0px"
+
+            togglemenu=()=>{
+                if (MenuList.style.maxHeight=="0px") {
+
+                    MenuList.style.maxHeight="130px";
+
+                    
+                } else {
+                    MenuList.style.maxHeight="0px"
+
+                    
+                }
+            }
+        </script>
+</body>
+</html>
